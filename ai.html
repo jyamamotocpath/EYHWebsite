@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Features - EnterYourHours</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#fb923c',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <div data-include="components/nav.html"></div>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-primary/5 to-secondary/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center space-y-8">
+                <div class="space-y-8">
+                    <h1 class="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-gray-900 max-w-6xl mx-auto leading-tight py-4">AI-powered time tracking</h1>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                        Let artificial intelligence streamline your time tracking and billing processes.
+                    </p>
+                </div>
+                <div class="flex justify-center gap-6">
+                    <button class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">Experience Now</button>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-8 text-gray-600">
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-[#FFB74D] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                        </svg>
+                        <span class="text-base">30-day free trial</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-[#FFB74D] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                        </svg>
+                        <span class="text-base">No credit card required</span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Capabilities -->
+    <section id="capabilities" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <!-- Consistency -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="relative">
+                    <img src="images/placeholder.png" alt="AI Consistency" class="w-full rounded-lg">
+                </div>
+                <div>
+                    <h3 class="text-5xl font-bold mb-3">Ensure consistency</h3>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        AI ensures consistent time entries across projects and team members, 
+                        maintaining billing standards and reducing errors.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Automated validation and standardization of time entries ensures 
+                        uniform billing practices across your entire organization.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Time Reduction -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-5xl font-bold mb-3">Reduce time commitment</h3>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Automated suggestions and smart defaults minimize the time spent 
+                        on administrative tasks and data entry.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Intelligent time entry assistance and automated categorization 
+                        reduce manual work by up to 60%.
+                    </p>
+                </div>
+                <div class="relative order-1 md:order-2">
+                    <img src="images/placeholder.png" alt="Time Reduction" class="w-full rounded-lg">
+                </div>
+            </div>
+
+            <!-- Standards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="images/placeholder.png" alt="Client Standards" class="w-full rounded-lg">
+                </div>
+                <div>
+                    <h3 class="text-5xl font-bold mb-3">Set client standards</h3>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Automatically enforce client-specific billing rules and preferences 
+                        across all time entries and invoices.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Custom billing rules and automated compliance checks ensure 
+                        consistent adherence to client requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Benefits -->
+    <section id="benefits" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Analyze Billing Trends -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-5xl font-bold mb-3">Analyze billing trends</h3>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Our AI identifies patterns and provides actionable insights into your 
+                        billing practices and project performance.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Project profitability analysis with automated insights and recommendations 
+                        for optimizing billing practices. Resource utilization optimization through 
+                        intelligent analysis of time allocation and project performance.
+                    </p>
+                </div>
+                <div class="relative order-1 md:order-2">
+                    <img src="images/placeholder.png" alt="Billing Trends Analysis" class="w-full rounded-lg">
+                </div>
+            </div>
+
+            <!-- Consolidate Hours -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="images/placeholder.png" alt="Hours Consolidation" class="w-full rounded-lg">
+                </div>
+                <div>
+                    <h3 class="text-5xl font-bold mb-3">Consolidate hours</h3>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Smart time entry consolidation features that automatically group and 
+                        optimize your time entries for maximum efficiency.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Automatic task grouping and categorization based on project context 
+                        and historical patterns. Smart time rounding and adjustment to ensure 
+                        accurate billing while maintaining compliance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Demo Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">See AI in action</h3>
+                        <p class="text-gray-600 mb-6">Watch how our AI features can transform your billing workflow:</p>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                                </svg>
+                                Automatic time entry suggestions
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                                </svg>
+                                Smart categorization
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-5 h-5 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                                </svg>
+                                Real-time optimization
+                            </li>
+                        </ul>
+                        <button class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90">
+                            Watch Demo
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <img src="images/ai-demo.svg" alt="AI Demo" class="w-full rounded-lg shadow-xl">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-white/90 text-primary p-4 rounded-full hover:bg-white">
+                                <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div data-include="components/footer.html"></div>
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

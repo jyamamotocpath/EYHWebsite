@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnterYourHours - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#fb923c',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <div data-include="components/nav.html"></div>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center bg-gradient-to-br from-primary/20 via-white to-secondary/20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiA4YzAgMi4yMS0xLjc5IDQtNCA0cy00LTEuNzktNC00IDEuNzktNCA0LTQgNCAxLjc5IDQgNHoiIGZpbGw9IiMxZTQwYWYiIGZpbGwtb3BhY2l0eT0iLjA1Ii8+PC9nPjwvc3ZnPg==')] opacity-20"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white/90"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/5 to-secondary/5"></div>
+        <div class="max-w-4xl mx-auto px-4 relative w-full text-center pt-40 pb-24">
+            <div class="space-y-8">
+                <div class="space-y-8">
+                    <h1 class="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-gray-900 max-w-5xl mx-auto leading-tight py-2">
+                        Bill more, work less
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600">
+                        Streamline your billing process with intelligent time tracking and automated invoicing. Save hours every week and increase your revenue.
+                    </p>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                    <button class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">
+                        Experience Now
+                    </button>
+                    <button class="bg-white text-primary border-2 border-primary px-6 py-3 rounded-lg hover:bg-primary/5 transition-colors">
+                        Contact Us
+                    </button>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-8 text-gray-600">
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-[#FFB74D] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                        </svg>
+                        <span class="text-base">30-day free trial</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-[#FFB74D] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                        </svg>
+                        <span class="text-base">No credit card required</span>
+                    </div>
+                </div>
+                <div class="mt-12">
+                    <img src="images/hero-image.png" alt="Hero Illustration" class="w-full max-w-2xl mx-auto rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Features Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="images/platform-features.png" alt="Platform Features" class="w-full rounded-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-5xl font-bold text-gray-900 mb-4">Streamline your billing process</h2>
+                    <p class="text-gray-600 mb-6">Our platform provides comprehensive tools to make billing effortless and accurate.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Easy time entry
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Customizable invoices
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Performance dashboards
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Rating structures
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            AI notepad
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Features Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="images/ai-features.png" alt="AI Features" class="w-full rounded-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-5xl font-bold text-gray-900 mb-4">AI-powered efficiency</h2>
+                    <p class="text-gray-600 mb-6">Leverage artificial intelligence to automate and optimize your billing workflow.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Ensure consistency
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Reduce time commitment
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Set client standards
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Analyze billing trends
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Consolidate hours
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrations Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="images/integrations.png" alt="Integrations" class="w-full rounded-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-5xl font-bold text-gray-900 mb-4">Seamless integrations</h2>
+                    <p class="text-gray-600 mb-6">Connect with your favorite tools and streamline your workflow.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            QuickBooks
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            JIRA
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Microsoft Office
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-[#FFB74D] mt-1 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Ledes
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-5xl font-bold text-center text-gray-900 mb-12">What our customers say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="images/testimonial-1.jpg" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah Johnson</h4>
+                            <p class="text-gray-600">Legal Partner</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"EnterYourHours has transformed how we handle billing. The AI features save us countless hours each month."</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="images/testimonial-2.jpg" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Michael Chen</h4>
+                            <p class="text-gray-600">CFO</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"The integration with QuickBooks has streamlined our entire billing process. Highly recommended!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="images/testimonial-3.jpg" alt="Customer" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Emily Rodriguez</h4>
+                            <p class="text-gray-600">Managing Director</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"The customizable invoices and performance dashboards have helped us improve our billing efficiency by 40%."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Customer Benefits Section -->
+<section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-5xl font-bold text-gray-900 text-center mb-12">10 ways customers say we help their business</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">1</div>
+                <p class="text-gray-700">Motivate staff to track time consistently</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">2</div>
+                <p class="text-gray-700">Cut down on audit hassles</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">3</div>
+                <p class="text-gray-700">Capture more billable hours and minutes</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">4</div>
+                <p class="text-gray-700">Make invoicing day stress-free</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">5</div>
+                <p class="text-gray-700">Uncover billing trends with ease</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">6</div>
+                <p class="text-gray-700">Quickly find the information you need</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">7</div>
+                <p class="text-gray-700">Save time on time entry</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">8</div>
+                <p class="text-gray-700">Get fast, helpful support when you need it</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">9</div>
+                <p class="text-gray-700">Build custom reports that work for you</p>
+            </div>
+            <div class="flex items-start space-x-4">
+                <div class="flex-shrink-0 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-semibold">10</div>
+                <p class="text-gray-700">Never miss a deadline with smart reminders</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <div data-include="components/footer.html"></div>
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html> 

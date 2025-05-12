@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - EnterYourHours</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#fb923c',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <div data-include="components/nav.html"></div>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-primary/5 to-secondary/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center space-y-8">
+                <div class="space-y-8">
+                    <h1 class="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-gray-900 max-w-6xl mx-auto leading-tight py-4">Powerful time tracking & billing</h1>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                        Track time, manage projects, and bill clients with ease.
+                    </p>
+                </div>
+                <div class="flex justify-center gap-6">
+                    <button class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">Experience Now</button>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-8 text-gray-600">
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-[#FFB74D] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                        </svg>
+                        <span class="text-base">30-day free trial</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-[#FFB74D] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path>
+                        </svg>
+                        <span class="text-base">No credit card required</span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Overview -->
+    <section id="features" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Easy Time Entry -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="relative">
+                    <img src="images/placeholder.png" alt="Easy Time Entry" class="w-full rounded-lg">
+                </div>
+                <div>
+                    <h2 class="text-5xl font-bold mb-3">Easy time entry</h2>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Intuitive interface for quick and accurate time tracking. Start timers or enter time manually with ease.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        One-click timer start/stop with manual entry and auto-save functionality. Mobile-friendly interface for tracking on the go.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Customizable Invoices -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-5xl font-bold mb-3">Customizable invoices</h2>
+                    <p class="text-gray-600 mb-4 whitespace-pre-line">
+                        Create professional invoices with your branding. Multiple templates and formatting options available.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Branded templates with multiple currency support and automated calculations for accurate billing.
+                    </p>
+                </div>
+                <div class="relative order-1 md:order-2">
+                    <img src="images/placeholder.png" alt="Easy Time Entry" class="w-full rounded-lg">
+                </div>
+            </div>
+
+            <!-- Performance Dashboards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="relative">
+                    <img src="images/placeholder.png" alt="Easy Time Entry" class="w-full rounded-lg">
+                </div>
+                <div>
+                    <h2 class="text-5xl font-bold mb-3">Performance dashboards</h2>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Real-time insights into productivity, billing, and project progress with customizable reports.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Real-time analytics with custom report builder and export capabilities to multiple formats.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Rating Structures -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-5xl font-bold mb-3">Rating structures</h2>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Create custom billing rates based on client type, project scope, and employee seniority.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Client-specific rates with employee level pricing and project-based rate structures for flexible billing.
+                    </p>
+                </div>
+                <div class="relative order-1 md:order-2">
+                    <img src="images/placeholder.png" alt="Easy Time Entry" class="w-full rounded-lg">
+                </div>
+            </div>
+
+            <!-- AI Notepad -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="images/placeholder.png" alt="Easy Time Entry" class="w-full rounded-lg">
+                </div>
+                <div>
+                    <h2 class="text-5xl font-bold mb-3">AI notepad</h2>
+                    <p class="text-gray-600 mb-1 whitespace-pre-line">
+                        Smart time entry assistance with automatic task categorization and intelligent suggestions.
+                    </p>
+                    <p class="text-gray-600 whitespace-pre-line">
+                        Smart categorization with description suggestions and time allocation assistance for accurate tracking.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div data-include="components/footer.html"></div>
+
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
